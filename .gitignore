@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+.env
+logs/
+*.log
+
+# Crypto keys (NEVER commit real keys)
+*.key
+*.pem
+keys/
+prekeys/
+
+# Session/state data
+sessions/
+session_store/
+*.session
+
+# Development
+.mypy_cache/
+.ruff_cache/
